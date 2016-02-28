@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1c37d22de0ab87947bdc0e083a6f50ff
-timeCreated: 1456543886
+guid: 3a0649f961d97f041927da9fa53fd8c0
+timeCreated: 1456642861
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,18 @@ TextureImporter:
     21300026: catrunning_14
     21300028: catrunning_15
     21300030: catrunning_16
+    21300032: catrunning_17
+    21300034: catrunning_18
+    21300036: catrunning_19
+    21300038: catrunning_20
+    21300040: catrunning_21
+    21300042: catrunning_22
+    21300044: catrunning_23
+    21300046: catrunning_24
+    21300048: catrunning_25
+    21300050: catrunning_26
+    21300052: catrunning_27
+    21300054: catrunning_28
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,10 +81,10 @@ TextureImporter:
     - name: catrunning_01
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 31
-        height: 50
+        x: 1
+        y: 0
+        width: 30
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -80,299 +92,557 @@ TextureImporter:
     - name: catrunning_02
       rect:
         serializedVersion: 2
-        x: 35
-        y: 0
-        width: 37
-        height: 51
+        x: 37
+        y: 1
+        width: 36
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -13.5, y: 21.5}
-        - {x: -13.5, y: -18.5}
-        - {x: 15.5, y: -18.5}
-        - {x: 16.5, y: -16.5}
-        - {x: 16.5, y: 21.5}
+      - - {x: -8, y: 22}
+        - {x: -15, y: 15}
+        - {x: -15, y: -18}
+        - {x: -1, y: -18}
+        - {x: 12, y: -15}
+        - {x: 15, y: -14}
+        - {x: 15, y: 22}
     - name: catrunning_03
       rect:
         serializedVersion: 2
         x: 79
-        y: 0
+        y: 1
         width: 41
-        height: 51
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11.5, y: 18.5}
-        - {x: -16.5, y: 9.5}
-        - {x: -16.5, y: -18.5}
-        - {x: 11.5, y: -18.5}
-        - {x: 19.5, y: -14.5}
-        - {x: 19.5, y: 18.5}
+      - - {x: -14.5, y: 19}
+        - {x: -16.5, y: 13}
+        - {x: -16.5, y: -18}
+        - {x: 11.5, y: -18}
+        - {x: 19.5, y: -13}
+        - {x: 19.5, y: 17}
+        - {x: 13.5, y: 19}
     - name: catrunning_04
       rect:
         serializedVersion: 2
         x: 127
-        y: 0
-        width: 38
-        height: 51
+        y: 1
+        width: 36
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -7, y: 18.5}
-        - {x: -10, y: 15.5}
-        - {x: -15, y: -1.5}
-        - {x: -15, y: -15.5}
-        - {x: -5, y: -18.5}
-        - {x: 17, y: -18.5}
-        - {x: 17, y: 16.5}
-        - {x: 8, y: 18.5}
+      - - {x: -6, y: 19}
+        - {x: -9, y: 16}
+        - {x: -14, y: -1}
+        - {x: -14, y: -15}
+        - {x: -4, y: -18}
+        - {x: 18, y: -18}
+        - {x: 18, y: 17}
+        - {x: 9, y: 19}
     - name: catrunning_05
       rect:
         serializedVersion: 2
-        x: 171
+        x: 170
         y: 0
-        width: 33
-        height: 51
+        width: 34
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12.5, y: 20.5}
-        - {x: -11.5, y: 13.5}
-        - {x: -10.5, y: 10.5}
-        - {x: -7.5, y: 10.5}
-        - {x: -9.5, y: 10.5}
-        - {x: -13.5, y: 5.5}
-        - {x: -12.5, y: -18.5}
-        - {x: 6.5, y: -18.5}
-        - {x: 15.5, y: 1.5}
-        - {x: 15.5, y: 13.5}
-        - {x: 10.5, y: 20.5}
+      - - {x: -12, y: 21.5}
+        - {x: -11, y: 14.5}
+        - {x: -10, y: 11.5}
+        - {x: -7, y: 11.5}
+        - {x: -9, y: 11.5}
+        - {x: -13, y: 6.5}
+        - {x: -12, y: -17.5}
+        - {x: 6, y: -17.5}
+        - {x: 16, y: 2.5}
+        - {x: 16, y: 14.5}
+        - {x: 11, y: 21.5}
     - name: catrunning_06
       rect:
         serializedVersion: 2
-        x: 212
+        x: 211
         y: 0
         width: 38
-        height: 51
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -11, y: 20.5}
-        - {x: -16, y: 9.5}
-        - {x: -16, y: -18.5}
-        - {x: 16, y: -18.5}
-        - {x: 16, y: 19.5}
-        - {x: 14, y: 20.5}
+      - - {x: -9, y: 21.5}
+        - {x: -15, y: 10.5}
+        - {x: -15, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: 14.5}
+        - {x: 13, y: 21.5}
     - name: catrunning_07
       rect:
         serializedVersion: 2
-        x: 255
-        y: 1
-        width: 44
-        height: 50
+        x: 254
+        y: 0
+        width: 43
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18, y: -15}
-        - {x: -16, y: -17}
-        - {x: -13, y: -19}
-        - {x: 20, y: -19}
-        - {x: 20, y: 12}
-        - {x: 16, y: 19}
-        - {x: -11, y: 19}
-        - {x: -18, y: 3}
+      - - {x: 11.5, y: 20.5}
+        - {x: -5.5, y: 20.5}
+        - {x: -7.5, y: 19.5}
+        - {x: -15.5, y: 4.5}
+        - {x: -16.5, y: -0.5}
+        - {x: -16.5, y: -11.5}
+        - {x: -14.5, y: -15.5}
+        - {x: -11.5, y: -14.5}
+        - {x: 3.5, y: -17.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 21.5, y: -8.5}
+        - {x: 21.5, y: 11.5}
     - name: catrunning_08
       rect:
         serializedVersion: 2
-        x: 305
-        y: 0
+        x: 302
+        y: 1
         width: 41
-        height: 51
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -3.5, y: 19.5}
-        - {x: -11.5, y: 17.5}
-        - {x: -16.5, y: 10.5}
-        - {x: -16.5, y: -17.5}
-        - {x: -14.5, y: -18.5}
-        - {x: 16.5, y: -18.5}
-        - {x: 16.5, y: 14.5}
-        - {x: 9.5, y: 19.5}
+      - - {x: -0.5, y: 20}
+        - {x: -8.5, y: 18}
+        - {x: -13.5, y: 11}
+        - {x: -13.5, y: -17}
+        - {x: -11.5, y: -18}
+        - {x: 19.5, y: -18}
+        - {x: 19.5, y: 15}
+        - {x: 12.5, y: 20}
     - name: catrunning_09
       rect:
         serializedVersion: 2
-        x: 351
-        y: 0
-        width: 38
-        height: 51
+        x: 350
+        y: 1
+        width: 39
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 7, y: 19.5}
-        - {x: -5, y: 19.5}
-        - {x: -7, y: 16.5}
-        - {x: -9, y: 12.5}
-        - {x: -8, y: 9.5}
-        - {x: -5, y: 9.5}
-        - {x: -7, y: 9.5}
-        - {x: -13, y: 7.5}
-        - {x: -13, y: -15.5}
-        - {x: -8, y: -18.5}
-        - {x: 1, y: -18.5}
-        - {x: 5, y: -17.5}
-        - {x: 18, y: 2.5}
-        - {x: 18, y: 13.5}
-        - {x: 15, y: 17.5}
+      - - {x: 15.5, y: 18}
+        - {x: 7.5, y: 20}
+        - {x: -4.5, y: 20}
+        - {x: -6.5, y: 17}
+        - {x: -8.5, y: 13}
+        - {x: -7.5, y: 10}
+        - {x: -4.5, y: 10}
+        - {x: -6.5, y: 10}
+        - {x: -12.5, y: 8}
+        - {x: -12.5, y: -14}
+        - {x: -7.5, y: -18}
+        - {x: 4.5, y: -18}
+        - {x: 18.5, y: -1}
+        - {x: 18.5, y: 12}
     - name: catrunning_10
       rect:
         serializedVersion: 2
-        x: 395
+        x: 396
         y: 0
-        width: 36
-        height: 51
+        width: 35
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -3, y: 17.5}
-        - {x: -11, y: 15.5}
-        - {x: -18, y: -1.5}
-        - {x: -18, y: -18.5}
-        - {x: 9, y: -18.5}
-        - {x: 13, y: -16.5}
-        - {x: 17, y: 1.5}
-        - {x: 17, y: 11.5}
-        - {x: 10, y: 17.5}
+      - - {x: 7.5, y: 18.5}
+        - {x: -4.5, y: 18.5}
+        - {x: -12.5, y: 17.5}
+        - {x: -17.5, y: 2.5}
+        - {x: -17.5, y: -17.5}
+        - {x: 11.5, y: -17.5}
+        - {x: 12.5, y: -15.5}
+        - {x: 16.5, y: 1.5}
+        - {x: 16.5, y: 13.5}
     - name: catrunning_11
       rect:
         serializedVersion: 2
-        x: 436
+        x: 437
         y: 0
-        width: 44
-        height: 51
+        width: 46
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -1, y: 16.5}
-        - {x: -11, y: 13.5}
-        - {x: -21, y: 4.5}
-        - {x: -21, y: -14.5}
-        - {x: -15, y: -18.5}
-        - {x: 21, y: -18.5}
-        - {x: 21, y: 12.5}
-        - {x: 14, y: 16.5}
+      - - {x: -2, y: 17.5}
+        - {x: -12, y: 13.5}
+        - {x: -23, y: 3.5}
+        - {x: -23, y: -17.5}
+        - {x: 19, y: -17.5}
+        - {x: 19, y: 13.5}
+        - {x: 12, y: 17.5}
     - name: catrunning_12
       rect:
         serializedVersion: 2
         x: 486
         y: 0
-        width: 38
-        height: 51
+        width: 36
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -2, y: 16.5}
-        - {x: -10, y: 14.5}
-        - {x: -19, y: -3.5}
-        - {x: -19, y: -13.5}
-        - {x: -14, y: -18.5}
-        - {x: 16, y: -18.5}
-        - {x: 18, y: -8.5}
-        - {x: 18, y: 12.5}
-        - {x: 12, y: 16.5}
+      - - {x: -1, y: 17.5}
+        - {x: -9, y: 15.5}
+        - {x: -18, y: -2.5}
+        - {x: -18, y: -12.5}
+        - {x: -13, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 18, y: -12.5}
+        - {x: 18, y: 13.5}
+        - {x: 13, y: 17.5}
     - name: catrunning_13
       rect:
         serializedVersion: 2
-        x: 529
+        x: 526
         y: 0
-        width: 33
-        height: 51
+        width: 35
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -13.5, y: 18.5}
-        - {x: -12.5, y: 11.5}
-        - {x: -11.5, y: 8.5}
-        - {x: -8.5, y: 8.5}
-        - {x: -10.5, y: 8.5}
-        - {x: -16.5, y: 3.5}
-        - {x: -16.5, y: -14.5}
-        - {x: -12.5, y: -18.5}
-        - {x: -3.5, y: -18.5}
-        - {x: -0.5, y: -17.5}
-        - {x: 14.5, y: -8.5}
-        - {x: 14.5, y: 18.5}
+      - - {x: -11.5, y: 19.5}
+        - {x: -10.5, y: 12.5}
+        - {x: -9.5, y: 9.5}
+        - {x: -6.5, y: 9.5}
+        - {x: -8.5, y: 9.5}
+        - {x: -14.5, y: 7.5}
+        - {x: -14.5, y: -17.5}
+        - {x: 0.5, y: -17.5}
+        - {x: 16.5, y: -5.5}
+        - {x: 16.5, y: 12.5}
+        - {x: 11.5, y: 19.5}
     - name: catrunning_14
       rect:
         serializedVersion: 2
-        x: 568
+        x: 567
         y: 0
-        width: 36
-        height: 51
+        width: 38
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 18.5}
-        - {x: -18, y: 5.5}
-        - {x: -18, y: -19.5}
-        - {x: 15, y: -19.5}
-        - {x: 17, y: -13.5}
-        - {x: 17, y: 16.5}
-        - {x: 12, y: 18.5}
+      - - {x: -3, y: 19.5}
+        - {x: -11, y: 17.5}
+        - {x: -19, y: 5.5}
+        - {x: -19, y: -18.5}
+        - {x: 14, y: -18.5}
+        - {x: 17, y: -4.5}
+        - {x: 17, y: 15.5}
+        - {x: 10, y: 19.5}
     - name: catrunning_15
       rect:
         serializedVersion: 2
-        x: 608
+        x: 610
         y: 0
-        width: 47
-        height: 51
+        width: 44
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 17.5, y: 15.5}
-        - {x: -6.5, y: 15.5}
-        - {x: -21.5, y: 4.5}
-        - {x: -21.5, y: -12.5}
-        - {x: -14.5, y: -13.5}
-        - {x: 2.5, y: -20.5}
-        - {x: 12.5, y: -20.5}
-        - {x: 20.5, y: -14.5}
-        - {x: 20.5, y: -0.5}
-        - {x: 19.5, y: 9.5}
+      - - {x: 12, y: 16.5}
+        - {x: -1, y: 16.5}
+        - {x: -17, y: 10.5}
+        - {x: -22, y: -0.5}
+        - {x: -22, y: -14.5}
+        - {x: 0, y: -19.5}
+        - {x: 12, y: -19.5}
+        - {x: 20, y: -13.5}
+        - {x: 20, y: 0.5}
+        - {x: 19, y: 10.5}
     - name: catrunning_16
       rect:
         serializedVersion: 2
-        x: 660
-        y: 0
-        width: 42
-        height: 51
+        x: 659
+        y: 1
+        width: 39
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -5, y: 15.5}
-        - {x: -13, y: 13.5}
-        - {x: -21, y: -2.5}
-        - {x: -21, y: -13.5}
-        - {x: -7, y: -20.5}
+      - - {x: -2.5, y: 16}
+        - {x: -10.5, y: 14}
+        - {x: -19.5, y: -6}
+        - {x: -19.5, y: -9}
+        - {x: -17.5, y: -13}
+        - {x: -4.5, y: -20}
+        - {x: 12.5, y: -20}
+        - {x: 17.5, y: -4}
+        - {x: 17.5, y: 12}
+        - {x: 10.5, y: 16}
+    - name: catrunning_17
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 17}
+        - {x: -14.5, y: 2}
+        - {x: -14.5, y: -4}
+        - {x: -11.5, y: -16}
+        - {x: -8.5, y: -19}
+        - {x: 3.5, y: -19}
+        - {x: 22.5, y: -1}
+        - {x: 22.5, y: 7}
+        - {x: 18.5, y: 17}
+    - name: catrunning_18
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 0
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 17.5}
+        - {x: -19.5, y: 5.5}
+        - {x: -19.5, y: -17.5}
+        - {x: -18.5, y: -19.5}
+        - {x: 10.5, y: -19.5}
+        - {x: 18.5, y: -10.5}
+        - {x: 18.5, y: 14.5}
+        - {x: 15.5, y: 17.5}
+    - name: catrunning_19
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 0
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 17}
+        - {x: -21.5, y: 1}
+        - {x: -21.5, y: -12}
+        - {x: 1.5, y: -19}
+        - {x: 20.5, y: -19}
+        - {x: 20.5, y: 2}
+        - {x: 14.5, y: 17}
+    - name: catrunning_20
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 3}
+        - {x: 11, y: 11}
+        - {x: -8, y: 11}
+        - {x: -9, y: 9}
+        - {x: -16, y: 4}
+        - {x: -22, y: -1}
+        - {x: -22, y: -13}
+        - {x: -2, y: -20}
+        - {x: 18, y: -20}
+        - {x: 20, y: -17}
+        - {x: 21, y: -13}
+        - {x: 21, y: -6}
+        - {x: 19, y: -3}
+    - name: catrunning_21
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -9, y: 8}
+        - {x: -8, y: 5}
+        - {x: -5, y: 5}
+        - {x: -8, y: 3}
+        - {x: -10, y: 8}
+        - {x: -22, y: 1}
+        - {x: -22, y: -9}
+        - {x: -21, y: -14}
+        - {x: 5, y: -20}
+        - {x: 14, y: -20}
+        - {x: 22, y: -15}
+        - {x: 22, y: 0}
+        - {x: 17, y: 16}
+    - name: catrunning_22
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 0
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 17.5}
+        - {x: -19.5, y: 3.5}
+        - {x: -19.5, y: -5.5}
+        - {x: -17.5, y: -16.5}
+        - {x: -12.5, y: -19.5}
+        - {x: -2.5, y: -19.5}
+        - {x: 17.5, y: -1.5}
+        - {x: 17.5, y: 8.5}
+        - {x: 13.5, y: 17.5}
+    - name: catrunning_23
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 15}
+        - {x: -18, y: 1}
+        - {x: -18, y: -11}
+        - {x: -17, y: -19}
+        - {x: -11, y: -21}
+        - {x: 1, y: -21}
+        - {x: 19, y: -2}
+        - {x: 19, y: 3}
+        - {x: 15, y: 15}
+    - name: catrunning_24
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16.5}
+        - {x: -20, y: 1.5}
+        - {x: -20, y: -20.5}
         - {x: 10, y: -20.5}
-        - {x: 15, y: -4.5}
-        - {x: 15, y: 11.5}
-        - {x: 8, y: 15.5}
+        - {x: 18, y: -2.5}
+        - {x: 18, y: 5.5}
+        - {x: 14, y: 16.5}
+    - name: catrunning_25
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 15.5}
+        - {x: -5.5, y: 15.5}
+        - {x: -14.5, y: 6.5}
+        - {x: -22.5, y: -3.5}
+        - {x: -22.5, y: -7.5}
+        - {x: -19.5, y: -10.5}
+        - {x: -11.5, y: -10.5}
+        - {x: 5.5, y: -20.5}
+        - {x: 10.5, y: -20.5}
+        - {x: 15.5, y: -18.5}
+        - {x: 21.5, y: -12.5}
+        - {x: 21.5, y: -7.5}
+        - {x: 18.5, y: 7.5}
+    - name: catrunning_26
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 0
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 2.5}
+        - {x: 13, y: 11.5}
+        - {x: -11, y: 11.5}
+        - {x: -22, y: 1.5}
+        - {x: -22, y: -11.5}
+        - {x: 2, y: -20.5}
+        - {x: 19, y: -20.5}
+        - {x: 22, y: -18.5}
+        - {x: 22, y: -6.5}
+        - {x: 20, y: -3.5}
+    - name: catrunning_27
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 0
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 11.5}
+        - {x: -12, y: 2.5}
+        - {x: -20, y: -7.5}
+        - {x: -20, y: -11.5}
+        - {x: -17, y: -14.5}
+        - {x: -9, y: -14.5}
+        - {x: 8, y: -24.5}
+        - {x: 20, y: -24.5}
+        - {x: 24, y: -17.5}
+        - {x: 24, y: -3.5}
+        - {x: 18, y: 11.5}
+    - name: catrunning_28
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 0
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 12.5}
+        - {x: -24, y: -2.5}
+        - {x: -24, y: -7.5}
+        - {x: -21, y: -20.5}
+        - {x: -17, y: -24.5}
+        - {x: -1, y: -24.5}
+        - {x: 4, y: -23.5}
+        - {x: 13, y: -2.5}
+        - {x: 13, y: 8.5}
+        - {x: 8, y: 12.5}
     outline: []
   spritePackingTag: 
   userData: 
