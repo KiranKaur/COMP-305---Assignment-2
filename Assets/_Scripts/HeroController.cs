@@ -34,9 +34,14 @@ public class HeroController : MonoBehaviour {
     private Transform _transform;
     private Rigidbody2D _rigidBody2d;
     private bool _isGrounded;
+    private AudioSource[] _audioSources;
+    private AudioSource _jumpSound;
+    private AudioSource _diamondSound;
+    private AudioSource _hurtSound;
+    private AudioSource _enemySound;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         //INTIALIZE PUBLIC INSTANCE VARIABLE
         this.velocityRange = new VelocityRange(300f, 1000f);
@@ -49,6 +54,14 @@ public class HeroController : MonoBehaviour {
         this._move = 0f;
         this._jump = 0f;
         this._facingRight = true;
+        
+
+        //set up audio source
+        this._audioSources = gameObject.GetComponents<AudioSource>();
+        this._jumpSound = this._audioSources[0];
+        this._diamondSound = this._audioSources[1];
+        this._hurtSound = this._audioSources[2];
+        this._enemySound = this._audioSources[3];
         // set default animation state
         this._animator.SetInteger("AnimState", 0);
 
@@ -117,6 +130,7 @@ public class HeroController : MonoBehaviour {
                 // jump force
                 if (absValueY < this.velocityRange.maximum)
                 {
+                    this._jumpSound.Play();
                     forceY = this.jumpForce;
                 }
 
@@ -127,7 +141,7 @@ public class HeroController : MonoBehaviour {
             // call the "jump" clip
             this._animator.SetInteger("AnimState", 2);
         }
-        Debug.Log(forceX);
+        
         // Apply force to the player
         this._rigidBody2d.AddForce(new Vector2(forceX, forceY));
         
@@ -135,10 +149,28 @@ public class HeroController : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Death"))
+        if (other.gameObject.CompareTag("Die"))
         {
             this._spawn();
+         
+             this._hurtSound.Play();
+            this.gameController.LivesValue--;
         }
+        if (other.gameObject.CompareTag("Diamond"))
+        {
+           this._diamondSound.Play();
+            Destroy(other.gameObject);
+            this.gameController.ScoreValue += 10;
+        }
+
+       if (other.gameObject.CompareTag("SpikedWheel"))
+        {
+            this._enemySound.Play();
+            this.gameController.LivesValue--;
+        }
+
+
+  
     }
 
     //PRIVATE METHODS
